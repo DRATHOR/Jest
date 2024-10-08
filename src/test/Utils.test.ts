@@ -113,11 +113,13 @@ describe("StringUtils suite", () => {
     }).toThrow("Invalid argument!");
   });
 
-  it("should throw error on invalid argument in arrow -function", () => {
+  it.only("should throw error on invalid argument in try catch", () => {
     try {
       suite.toUpperCase("");
+      fail('Getting Error in this documents');
     } catch (error) {
       expect(error).toBeInstanceOf(Error);
+      expect(error).toHaveProperty('message','Invalid argument!');
     }
   });
 });
