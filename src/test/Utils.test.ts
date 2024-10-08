@@ -107,13 +107,13 @@ describe("StringUtils suite", () => {
     expect(expectedError).toThrow("Invalid argument!");
   });
 
-  it.only("should throw error on invalid argument in arrow -function", () => {
+  it("should throw error on invalid argument in arrow -function", () => {
     expect(() => {
       suite.toUpperCase("");
     }).toThrow("Invalid argument!");
   });
 
-  it.only("should throw error on invalid argument in arrow -function", () => {
+  it("should throw error on invalid argument in arrow -function", () => {
     try {
       suite.toUpperCase("");
     } catch (error) {
