@@ -113,7 +113,7 @@ describe("StringUtils suite", () => {
     }).toThrow("Invalid argument!");
   });
 
-  it.only("should throw error on invalid argument in try catch", () => {
+  it("should throw error on invalid argument in try catch", () => {
     try {
       suite.toUpperCase("");
       fail('Getting Error in this documents');
