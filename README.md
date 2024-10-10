@@ -21,4 +21,13 @@ npx ts-jest config:init
         -Assert
     Setup
     Teardown
+<details>
+<summary>used languages</summary>
 
+| Rank | Languages |
+|-----:|-----------|
+|     1| JavaScript|
+|     2| React   |
+|     3| jest      |
+
+</details>
