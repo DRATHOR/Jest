@@ -1,4 +1,39 @@
-/node-module
+# Node modules
+node_modules/
+
+# Build output
+/build
+/dist
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Cache
+/.cache
+/.next
+/.nuxt
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# yarn
+yarn-error.log
+yarn-debug.log
 package-lock.json
-
-
