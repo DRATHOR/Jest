@@ -21,6 +21,17 @@ npx ts-jest config:init
         -Assert
     Setup
     Teardown
+## some git command
+git status
+git log
+git remote
+git remote get-url origin
+git branch --all
+git checkout <branch name>
+git branch <branch name>
+git revert <commit ref>
+git commit -m "commit message"
+
 <details>
 <summary>used languages</summary>
 
@@ -31,3 +42,4 @@ npx ts-jest config:init
 |     3| jest      |
 
 </details>
+
