@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      - name: Print greeting
-        run: echo "hello world"
+      - name: checking eslint
+        run: npx eslint .
       - name: Print goodbye
         run: echo "done-goodbye"
