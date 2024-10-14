@@ -27,7 +27,7 @@ coverage/
 .idea/
 .vscode/
 *.sublime-project
-*.sublime-workspace
+*.sublime-workspac
 
 # Misc
 .DS_Store
@@ -36,4 +36,4 @@ Thumbs.db
 # yarn
 yarn-error.log
 yarn-debug.log
-package-lock.json
+# package-lock.json
