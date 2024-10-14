@@ -1,10 +1,16 @@
-name: first workflow
-on: workflow_dispatch
+name: Test Project
+on: push
 jobs: 
-  first-job:
+  test: 
     runs-on: windows-latest
     steps:
-      - name: checking eslint
-        run: npx eslint .
-      - name: Print goodbye
-        run: echo "done-goodbye"
+      - name: Get code
+        uses: actions/checkout@v3
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: npm ci
+      - name: Run tests
+        run: npm test
